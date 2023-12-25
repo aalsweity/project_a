@@ -598,6 +598,10 @@ progress {
   content: "— ";
 }
 
+.business {
+  display: flex;
+  margin-left: auto;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -11051,4 +11055,17 @@ html {
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+
+.sflex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.sflexc {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: column;
 }
